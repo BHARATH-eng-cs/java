@@ -9,6 +9,7 @@ if (age > 18)
 System.out.println("eligble to vote");
 else
 System.out.println("not eligible to vote");
+sc.close();
     }
     
 }

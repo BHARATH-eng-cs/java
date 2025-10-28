@@ -35,9 +35,8 @@ switch (day) {
     default:
     System.out.println("have a nice day");
         break;
-       
-}
+      
 }
 
 }
-    
+}

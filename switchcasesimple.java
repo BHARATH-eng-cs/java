@@ -37,6 +37,7 @@ switch (day) {
         break;
       
  }   
+ sc.close();
 }   
 }
 

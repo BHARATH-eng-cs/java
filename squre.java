@@ -6,7 +6,7 @@ public class squre {
         System.out.println("enter size of squre");
         int squre = sc.nextInt();
         int total = squre*squre;
-        System.out.println("total size of squre" + total);
+        System.out.println("total size of squre: " + total);
         sc.close();
 
     }

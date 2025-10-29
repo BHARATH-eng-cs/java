@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class switchcasesimple {
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-System.out.println("enter the day of the week:");
+System.out.print("enter the day of the week:");
 int day = sc.nextInt();
 switch (day) {
     case 1:
@@ -31,12 +31,12 @@ switch (day) {
   case 8:
         System.out.println("invalid");
         break;
-
+      
     default:
     System.out.println("have a nice day");
         break;
       
+ }   
+}   
 }
 
-}
-}

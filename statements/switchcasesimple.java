@@ -1,3 +1,4 @@
+package statements;
 import java.util.Scanner;
 
 public class switchcasesimple {
@@ -7,36 +8,38 @@ System.out.print("enter the day of the week:");
 int day = sc.nextInt();
 switch (day) {
     case 1:
-        System.out.println("monday");
+        System.out.println("monday.");
         break;
  
    case 2:
-        System.out.println("tuesday");
+        System.out.println("tuesday.");
         break;
    case 3:
-        System.out.println("wednesday");
+        System.out.println("wednesday.");
         break;
    case 4:
-        System.out.println("thursday");
+        System.out.println("thursday.");
         break;
   case 5:
-        System.out.println("friday");
+        System.out.println("friday.");
         break;
   case 6:
-        System.out.println("staturday");
+        System.out.println("staturday.");
         break;
   case 7:
-        System.out.println("sunday");
+        System.out.println("sunday.");
         break;
   case 8:
-        System.out.println("invalid");
+        System.out.println("invalid...!");
         break;
       
     default:
-    System.out.println("have a nice day");
+    System.out.println("invalid day");
         break;
-      
+     
  }   
+  System.out.println("have a nice day...");
+
  sc.close();
 }   
 }

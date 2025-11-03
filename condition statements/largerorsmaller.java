@@ -9,12 +9,12 @@ public class largerorsmaller {
          System.out.print("Enter second number: ");
          int b = sc.nextInt();
          if (a > b) {
-            System.out.println("The first number is grater than and the number is"+a);
+            System.out.println("The first number is grater than and the number is: "+a);
          }
          else if(a < b){
-            System.out.println("The second number is grater than and the number is"+b);
+            System.out.println("The second number is grater than and the number is: "+b);
          }
          else
-         {System.out.println("The two numbers are eqal");}
+         {System.out.println("The two numbers are eqal.");}
     }
 }

@@ -16,5 +16,6 @@ public class largerorsmaller {
          }
          else
          {System.out.println("The two numbers are eqal.");}
+         sc.close();
     }
 }
